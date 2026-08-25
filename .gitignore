@@ -1,0 +1,91 @@
+# Frontend dependencies and build output
+node_modules/
+dist/
+dist-ssr/
+.vite/
+coverage/
+
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+*.egg-info/
+build/
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+*.local
+
+# Runtime state, databases and logs
+runtime/
+logs/
+*.log
+*.pid
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Model weights and files uploaded at runtime
+models/*
+!models/.gitkeep
+util/output_model/
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+*.onnx
+*.gguf
+
+# Local IDE and operating-system files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Duplicate unpacked project and legacy local experiments
+/maoqiu-vue/
+/util/
+/Agent.py
+/src/界面.html
+/train_qnn.py
+
+# Superseded frontend drafts not used by either Vite entry point
+/src/App2.vue
+/src/App_M.vue
+/src/Material.vue
+/src/Material-吕.vue
+/src/app.html
+/src/总控.vue
+/src/components/
+/src/router/
+/src/views/
+/src/assets/base.css
+/src/assets/main.css
+/src/assets/styles/
+/src/assets/logo.svg
+/src/assets/images/Mermaid.png
+/src/assets/images/exported_image.png
+
+# Local reference/source artifacts not required at runtime
+/*.pdf
+/sink.jpeg
+
+# Test artifacts
+cypress/videos/
+cypress/screenshots/
